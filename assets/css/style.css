@@ -14,9 +14,9 @@ body{
   background-image: url(./../images/beachshowcase.jpg);
 }
 .header__container{
+  width: 80vw;
   padding-top: 37.3vh;
   margin: 0 auto;
-  width: 80vw;
 }
 .one-line{
   white-space: nowrap;
@@ -24,10 +24,10 @@ body{
   text-overflow: ellipsis;
 }
 .header__title{
+  line-height: 1.2;
   font-weight: bold;
   font-size: 50px;
   text-transform: capitalize;
-  line-height: 1.2;
 }
 .header__subtitle{
   font-size: 20px;
@@ -35,22 +35,22 @@ body{
 .header__button{
   display: inline-block;
   width: 90px;
-  font-size: 18px;
-  text-decoration: none;
-  color: var(--dark-color);
-  border: var(--dark-color) 1px solid;
   padding: 10px 20px;
-  text-transform: capitalize;
-  border-radius: 10px;
   margin-top: 20px;
+  border: var(--dark-color) 1px solid;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: var(--dark-color);
 }
 .header__button:hover {
   background: var(--dark-color);
   color: var(--white-color);
 }
 .content{
-  font-size: 17px;
   padding: 20px;
+  font-size: 17px;
 }
 .content--dark-theme{
   background-color: var(--dark-color);
@@ -61,12 +61,12 @@ body{
   color:var(--dark-color);
 }
 .content--white-theme{
-  color:var(--dark-color);
   background-color:#f9f9f9;
+  color:var(--dark-color);
 }
 .section-raw__column{
-  text-align: start;
   display: inline-block;
-  width: 33.33%;
   box-sizing: border-box;
+  width: 33.33%;
+  text-align: start;
 }
