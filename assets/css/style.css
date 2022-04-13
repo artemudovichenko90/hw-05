@@ -64,7 +64,7 @@ body{
   color:var(--dark-color);
   background-color:#f9f9f9;
 }
-.section-raw--column{
+.section-raw__column{
   text-align: start;
   display: inline-block;
   width: 33.33%;
